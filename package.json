@@ -1,0 +1,20 @@
+{
+  "name": "demo-ds",
+  "version": "1.0.0",
+  "description": "Demo of student projects",
+  "main": "index.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.22.0",
+    "jest": "^18.1.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^18.0.0",
+    "jest": "^18.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "author": "Ben Nelson",
+  "license": "ISC"
+}
