@@ -18,6 +18,30 @@
 */
 
 class Stack {
+  
+  constructor() {
+    this.items = [];
+    this.count = 0;
+  }
+
+  getLength() {
+    return this.count;
+  }
+
+  push(item) {
+    this.count++;
+    this.items.push(item);
+  }
+
+  pop() {
+    if (this.count === 0) return;
+    this.count--;
+    return this.items.pop();
+  }
+
+  peek() {
+    return this.items[this.items.length - 1];
+  }
 
 }
 
