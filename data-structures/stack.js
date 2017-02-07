@@ -18,7 +18,6 @@
 */
 
 class Stack {
-  
   constructor() {
     this.items = [];
     this.count = 0;
@@ -42,7 +41,6 @@ class Stack {
   peek() {
     return this.items[this.items.length - 1];
   }
-
 }
 
 module.exports = Stack;
